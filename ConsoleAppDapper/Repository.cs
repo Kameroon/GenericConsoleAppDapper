@@ -49,7 +49,7 @@ namespace ConsoleAppDapper
             {
                 var parameters = (object)Mapping(item);
                 cn.Open();
-                //cn.Update(_tableName, parameters);
+                cn.Update(_tableName, parameters);
             }
         }
 

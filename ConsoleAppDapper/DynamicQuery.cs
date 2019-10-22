@@ -187,7 +187,10 @@ namespace ConsoleAppDapper
         /// <param name="propertyName">Name of the property.</param>
         /// <param name="propertyValue">The property value.</param>
         /// <param name="queryOperator">The query operator.</param>
-        internal QueryParameter(string linkingOperator, string propertyName, object propertyValue, string queryOperator)
+        internal QueryParameter(string linkingOperator, 
+            string propertyName,
+            object propertyValue,
+            string queryOperator)
         {
             this.LinkingOperator = linkingOperator;
             this.PropertyName = propertyName;
